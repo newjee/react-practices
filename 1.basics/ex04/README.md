@@ -12,4 +12,16 @@ ex04: 애플리케이션 bundling(번들링)
     - 번들링
 5. js 모듈뿐만 아니라 다양한 에셋(images, css, sass/scss, font)들도 모듈로 취급한다.
 
+--- 
+npm init -y
 
+6.  설치
+    $ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader sass-loader node-sass
+7.  설치 확인
+    $ npx webpack --version
+8.  webpack 설정(webpack.config.js)
+9.  스크립팅(package.json)
+10. 애플리케이션 실행(테스트 서버 실행)
+    $ npm start
+11. 애플리케이션 빌드(번들링)
+    $ npm run build     
