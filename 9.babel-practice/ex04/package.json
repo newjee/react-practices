@@ -1,0 +1,17 @@
+{
+  "name": "ex04",
+  "version": "1.0.0",
+  "description": "Transpile _변환_ 규칙을 소스에 적용해서 버전이 변환된 소스를 적용",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2"
+  }
+}
