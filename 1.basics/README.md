@@ -20,6 +20,6 @@ React API 기반의 애플리케이션 리팩토링
 ### ex06
 React JSX 기반의 애플리케이션 리팩토링
 ### ex07
-Recofiguration(내가 직접 설정)
+ex00.cra Recofiguration(내가 직접 설정)
 ### ex08
 JSX tutorial

@@ -6,4 +6,4 @@ import { App } from './App.js';
 //   .getElementById('root')
 //   .appendChild(App());
 
-ReactDOM.render(App(), document.getElementById('root'));
+const root= ReactDOM.render(App(), document.getElementById('root'));

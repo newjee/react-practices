@@ -6,9 +6,11 @@
 ### 5. Testing(Rest)
 ### 6. Perforamance
 ### 7. 통합개발(Integration) **
-   FE(React) + BE(Spring Boot, API Server)
+FE(React) + BE(Spring Boot, API Server)
 ### 8. [참고1] webpack-practice **
 ### 9. [참고2] babel-practice **
+transpile = = compile
+
 
 ### Project
 - kanbanboard   

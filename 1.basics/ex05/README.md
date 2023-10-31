@@ -9,3 +9,5 @@
      $ npm i react react-dom
 
 #### 2. webpack.config.js Setting
+#### 3. Scripting
+#### 4. Dev Server Run(실행) & Build
