@@ -26,7 +26,7 @@
 #### 3. Scripting
 ```
   "scripts": {
-    "start": "npx webpack serve --progress",
+    "debug": "npx webpack serve --progress --env",
     "build": "npx webpack"
   }
 ```
