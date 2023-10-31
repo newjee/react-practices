@@ -1,4 +1,4 @@
-### ex06
+### ex07
 ## ex00.cra Recofiguration(내가 직접 설정)
 #### 1. install
 ##### Dev Tools
