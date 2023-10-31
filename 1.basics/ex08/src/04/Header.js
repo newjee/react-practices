@@ -1,14 +1,10 @@
 import React from 'react';
 
 function Header(props) {
-
   // return (
-  //   <div>
-  //     [02]
-  //   </div>
+  //     <h1>04</h1>
   // );
-  return React.createElement('div', '02')
-  
+  return React.createElement('h1', null, '04');
 }
 
-export default Contents;
+export default Header;

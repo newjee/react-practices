@@ -8,7 +8,8 @@ function Contents(props) {
   //   </div>
   // );
 
-  return React.createElement('p', '특징2 : Single Root')
+  return React.createElement('p', null, 'Pure React(React API) 컴포넌트');
+
 
 }
 

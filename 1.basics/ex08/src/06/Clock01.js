@@ -1,4 +1,4 @@
-    
+
 import React from 'react';
 
 function Clock01(props) {
@@ -6,6 +6,10 @@ function Clock01(props) {
   const hours = now.getHours();
   const minutes = now.getMinutes();
   const seconds = now.getSeconds();
+  let session = 'AM';
+  if (hours < 12) {
+    session = 'PM';
+  }
 
   // if (seconds < 10) {
   //   seconds = '0' + seconds;
@@ -17,7 +21,8 @@ function Clock01(props) {
       {/* {14}:{33}:{30}{'AM'}       */}
       {/* {now.getHours()}:{now.getMinutes()}:{now.getSeconds()} {'AM'} */}
       {/* 위의 방법이 더 좋은 방법 변수값 찾아야해서...*/}
-      {hours<10 ? '0'+hours : hours}:{minutes < 10 ? '0'+minutes : minutes}:{seconds < 10 ? '0'+seconds : seconds} {'AM'}
+      {hours < 10 ? '0' + hours : hours}:{minutes < 10 ? '0' + minutes : minutes}:{seconds < 10 ? '0' + seconds : seconds} {session}
+
 
     </div>
   );
