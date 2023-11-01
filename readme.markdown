@@ -1,6 +1,6 @@
 # React Practice
 ### 1. 기본개념(Basics) **
-|예제|설명|
+|Practice|Description|
 |---|---|
 |**ex00.cra**|create-react-app으로 React Application 만들어 보기|
 |**ex01**|전통적인 DOM기반 기반의 Application|
@@ -14,9 +14,9 @@
 
 ### 2. 컴포넌트(Component) ***
 
-|예제|설명|
+|Practice|Description|
 |---|---|
-|**ex01**|property
+|**ex01**|Property
 |**ex02**|Component Styling
 |**ex03**|React Event
 |**ex04**|State
@@ -40,7 +40,7 @@
 ### 7. 통합개발(Integration) **
 FE(React) + BE(Spring Boot, API Server)
 ### 8. [참고1] webpack-practice **
-| 예제 | 설명 
+|Practice|Description|
 |----------|----------
 | **ex01** | js Module
 | **ex02** | 번들링 환경(webpack.config.js) 설정
@@ -51,7 +51,7 @@ FE(React) + BE(Spring Boot, API Server)
 
 ### 9. [참고2] babel-practice **
 transpile == compile
-| 예제 | 설명 
+|Practice|Description|
 |----------|----------
 | **ex01** | Core Library
 | **ex02** | Core Library

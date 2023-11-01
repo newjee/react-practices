@@ -1,25 +1,25 @@
-### ex01
-## property
+### ex02
+## Component Styling 꾸미기
 
-#### 0. 
-1) 컴포넌트의 데이터
-2) 부모에서 자식으로 전달
-  - 컴포넌트 통신 (DATA Flow)
-  - Top -> Down
-3) 자식에서 변경 불가
-4) 부모가 소유한 DATA   
+#### 0.Practice
+| Practice | Description |
+| ----- | ----- |
+|src/01 | Inline Styling
+|src/02 | Normal CSS - css-loader option:{module:false}
+|src/03 | CSS Module I - css-loader option:{module:true} => css 해싱
+|src/04 | CSS Module II
 
-|Practice|Description|
-| -- |-- |
-|src/01 | 함수 컴포넌트의 property|
-|src/02 | DATA Flow|
-|src/03 | 클래스 컴포넌트의 property|
-|src/04 | property의 validation|
 
+4) 
+5) SASS & SCSS
+6) CSS in JS - Styled Component
+7) React Modal
+8) Modal Material UI
 
 -----------------
 
 #### 1. install
+만약 package.json copy 했다면, $ npm i
 ##### Dev Tools
      $ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader sass-loader node-sass babel-loader @babel/core @babel/preset-env @babel/preset-react
 
@@ -43,3 +43,7 @@
 
 #### 4. Dev Server Run(실행) & Build
     $ npm run debug src=(01|02|03|04|...)
+
+      $ npm run debug src=02 [css-module=false]
+    $ npm run debug src=03 //css-module=true//
+
