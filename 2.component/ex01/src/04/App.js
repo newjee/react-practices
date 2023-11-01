@@ -1,5 +1,6 @@
 import React from 'react';
-import FoodList from './FoodList';
+import MyComponent from './MyComponent';
+
 
 function App() {
   
@@ -9,12 +10,23 @@ function App() {
         [04]
       </h1>
       <MyComponent 
-          props01={10}
-          props02={''}
-          props03={true}
-          props04={ {no:1, name:'희도'}}
-          props05={ [] }
-          props06={ () => {}} />
+          // props01={'test'}
+          // props02={'test'}
+          // props03={true}
+          // props04={ {no:1, name:'희도'}}
+          props05={ ['희도', '1'] }
+          props06={ () => 'function'}
+          props07={10}
+          props08={ [true, false]}
+          props09={
+            {
+              no : 1,
+              name :'희도',
+              email: 'gmail'
+            }
+          }
+
+           />
     </div>
   );
 }

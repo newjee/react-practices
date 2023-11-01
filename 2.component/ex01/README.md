@@ -26,6 +26,9 @@
 ##### React Library   
      $ npm i react react-dom
 
+#### Validation
+     $ npm install prop-types
+
 #### 2. Setting
 ##### - webpack.config.js 
 ##### - babel.config.json
