@@ -40,16 +40,21 @@ module.exports = function (env) {
         {
           test: /\.(png|gif|jp?eg|svg|icon|tif?f)/i,
           type: 'asset/resource'
+        },
+        {
+          test: /\.json$/,
+          type: 'javascript/auto',
+          use: 'json-loader',
         }
       ]
     },
-    
+
     plugins: [
       new CaseSensitivePathsPlugin()
     ],
 
     // for Debug
-    devtool: "eval-source-map", 
+    devtool: "eval-source-map",
 
     devServer: {
       host: '0.0.0.0',
