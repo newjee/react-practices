@@ -11,8 +11,11 @@
 
 |예제|설명|
 | -- |-- |
-|src/01 | 함수 컴포넌트|
+|src/01 | 함수 컴포넌트의 property|
 |src/02 | DATA Flow|
+|src/03 | 클래스 컴포넌트의 property|
+|src/04 | property의 validation|
+
 
 -----------------
 
