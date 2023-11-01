@@ -68,6 +68,6 @@ transpile == compile
    |-- backend   
    |-- frontend 
 
-#### mysite07(guestbook, gallery)   
+#### mysite07 (guestbook, gallery)   
    |-- backend   
    |-- frontend
