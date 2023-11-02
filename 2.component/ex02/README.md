@@ -9,12 +9,11 @@
 |src/03 | CSS Module I - css-loader option:{module:true} => css 해싱
 |src/04 | CSS Module II
 |src/05 | SASS & SCSS
-|src/06 | CSS in JS - Styled Component
 
 
 4) 
 5) 
-6) 
+6) CSS in JS - Styled Component
 7) React Modal
 8) Modal Material UI
 
@@ -49,9 +48,3 @@
       $ npm run debug src=02 [css-module=false]
     $ npm run debug src=03 //css-module=true//
 
-
-
-
-npm i styled-components
-
-css-loader option : {module:true}
