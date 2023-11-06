@@ -17,7 +17,7 @@ html {
     margin: 0;
     font-family: $font-family-body;
     background-color: $bg-body;
-    :global(#App) {
+    #App {
       .Header {
         width: $header-width;
         font-size: $header-fontsize;

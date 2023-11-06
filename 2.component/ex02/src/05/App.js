@@ -1,16 +1,12 @@
 import React from 'react';
-import styles from './assets/scss/App.scss' ;
+import styles from './assets/scss/App.scss';
 
 function App() {
-
-  // console.log(styles.Header);
-  return (
-    <div id={'App'} className={styles.App}>
-      <h1 className={styles.Header}>
-        SASS & SCSS
-      </h1>
-    </div>
-  );
+    return (
+        <div id={styles.App}>
+            <h1 className={styles.Header}>CSS Module I</h1>
+        </div>
+    );
 }
 
-export { App };
+export {App};

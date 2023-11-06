@@ -1,24 +1,22 @@
 import React, {Component} from 'react';
 
 export default class TitelBar01 extends Component {
-
-    constructor(props){
+    constructor(props) {
         super(props);
-
     }
 
-    OnClickHander() {
-        console.log('TitleBar01 clicked!!');
-    }
+    onClickHandler() {
+        console.log('TitleBar01 Clicked');
+    };    
 
     render() {
         return (
             <div>
                 <h1
-                    onClick={this.OnClickHander} >
-                    Class Handler
+                    onClick={this.onClickHandler}>
+                    Function Handler
                 </h1>
             </div>
-        )
+        );
     }
 }

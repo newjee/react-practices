@@ -1,34 +1,24 @@
 import React from 'react';
 import MyComponent from './MyComponent';
 
-
 function App() {
-  
-  return (
-    <div id={'App'}>
-      <h1>
-        [04]
-      </h1>
-      <MyComponent 
-          // props01={'test'}
-          // props02={'test'}
-          // props03={true}
-          // props04={ {no:1, name:'희도'}}
-          props05={ ['희도', '1'] }
-          props06={ () => 'function'}
-          props07={10}
-          props08={ [true, false]}
-          props09={
-            {
-              no : 1,
-              name :'희도',
-              email: 'gmail'
-            }
-          }
-
-           />
-    </div>
-  );
+    return (
+        <div id={'App'}>
+            <MyComponent
+                props02={20}
+                props03={true} 
+                props04={{no:1, name:'둘리'}}
+                props05={['javascript', 'react', 'es6']}
+                props06={() => '함수'}
+                props07={10}
+                props08={[true, false, false]}
+                props09={{
+                    no: 10,
+                    name: '마이콜',
+                    email: 'michol@gmail.com'
+                }}/>
+        </div>
+    );
 }
 
-export { App };
+export {App};

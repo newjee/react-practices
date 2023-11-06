@@ -2,19 +2,17 @@ import React from 'react';
 
 function TitelBar02() {
 
-    const onClickHander = function() {
-        console.log('TitleBar02 clicked!!');
-    }
+    const onClickHandler = function() {
+        console.log('TitleBar02 Clicked');
+    };
 
     return (
-
         <div>
             <h1
-                onClick={onClickHander} >
+                onClick={onClickHandler}>
                 Function Handler
             </h1>
         </div>
-
     )
 }
 
